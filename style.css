@@ -1,0 +1,40 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 50px;
+    background-color: rgb(30, 29, 29);
+}
+
+.timer-container {
+    background-color: #4f4b4b;
+    color: #fff;
+    font-size: 5em;
+    padding: 40px;
+    border-radius: 40px;
+    margin: 40px auto;
+    width: 400px;
+}
+
+.timer {
+    font-family: 'Digital-7', sans-serif;
+}
+
+label, input, button {
+    font-size: 16px;
+    margin: 5px;
+    
+}
+
+label{
+    color: white;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+    color: black;
+}
+
+
+
+
