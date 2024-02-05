@@ -9,7 +9,7 @@ HTML is consisted of diffrent containers which are used for the timer, imput and
 - the imput container is consisted of 3 labels which are hours, mintues, and seconds
 - the button container is consisted of 3 buttons which are startcountdown, pauseresumecountdown and clearCountdown.
 
-For the styling I used CSS. we added some color animation on the egde of the time container.
+For the styling I used CSS and added some color animation on the egde of the time container.
 
 The JavaScript part we used the concepts of functions and some bulit in async-functions like setInterval , clearInterval , Date. 
 
