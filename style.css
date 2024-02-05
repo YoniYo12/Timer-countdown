@@ -4,15 +4,17 @@ body {
     margin: 50px;
     background-color: rgb(30, 29, 29);
 }
-
 .timer-container {
-    background-color: #4f4b4b;
-    color: #fff;
     font-size: 5em;
-    padding: 40px;
     border-radius: 40px;
     margin: 40px auto;
+    
     width: 400px;
+    background-color: #343a40; 
+    color: #fff; 
+    padding: 20px;
+    box-shadow: 0 0 20px #ff0000; /* Initial box shadow color */
+    animation: color-loop 10s infinite; /* Apply color loop animation */
 }
 
 .timer {
@@ -35,6 +37,13 @@ button {
     color: black;
 }
 
+@keyframes color-loop {
+    0% { box-shadow: 0 0 20px #ff0000; } /* Red */
+    25% { box-shadow: 0 0 20px #00ff00; } /* Green */
+    50% { box-shadow: 0 0 20px #0000ff; } /* Blue */
+    75% { box-shadow: 0 0 20px #ffff00; } /* Yellow */
+    100% { box-shadow: 0 0 20px #5e345e; } /* Magenta */
+  }
 
 
 
