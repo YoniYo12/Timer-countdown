@@ -1,8 +1,5 @@
 Basic timer-countdown project using HTML , CSS and vanilla javascript!
 
-https://yoniyo12.github.io/Timer-countdown/
-
-
 HTML is consisted of diffrent containers which are used for the timer, imput and button components.
 
 - the timer container show us the countdown time.
